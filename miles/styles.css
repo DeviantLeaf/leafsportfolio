@@ -30,3 +30,16 @@ h1 {
     text-align: center;
     font-family: cursive;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  img {
+    width: 100%;
+    height: var(--hero);
+    object-fit: cover;
+  }
