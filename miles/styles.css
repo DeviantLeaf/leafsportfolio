@@ -43,3 +43,9 @@ h1 {
     height: var(--hero);
     object-fit: cover;
   }
+
+  pinelands {
+    width: 100%;
+    height: var(--hero);
+    object-fit: cover;
+  }
