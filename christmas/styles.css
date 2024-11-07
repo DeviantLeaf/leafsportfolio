@@ -28,11 +28,11 @@ h1, h2 {
     font-size: 2em;
     background-color: rgb(142, 201, 126);
     padding: 10px;
-    color: red
+    color: rgba(197, 2, 2, 0.999)
 }
 
 h1 {
-    color: red;
+    color: rgba(197, 2, 2, 0.999);
 }
 
 a:visited {
