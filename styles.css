@@ -12,7 +12,7 @@ article {
 body {
     background-color: rgb(134, 209, 221);
     color: black;
-    background-image: url('/images/portfolioback.jpg');
+    background-image: url('images/portfolioback.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
