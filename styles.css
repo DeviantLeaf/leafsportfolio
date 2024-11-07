@@ -31,16 +31,20 @@ h1, h2 {
     padding: 10px;
 }
 
-.icons {
+.icon-row {
     color: goldenrod;
-    height: min-content;
-    width: min-content;
-    position: relative;
-    margin-right: 10px;
     position: absolute;
     left: 50;
     top: 16%;
     transform: translateY(-50%);
+    display: flex;
+    justify-content: space-around;
+    width: 48%;
+}
+
+.icon {
+    font-size: 24px; /* Adjust size as needed */
+    margin: 0 10px; /* Adjust spacing between icons */
 }
 
 .container {
