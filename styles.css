@@ -28,4 +28,17 @@ h1, h2 {
 
 .icons {
     color: goldenrod;
+    height: min-content;
+    width: min-content;
+    position: relative;
+    margin-right: 10px;
+    position: absolute;
+    left: 50;
+    top: 16%;
+    transform: translateY(-50%);
 }
+
+.container {
+    float: left;
+  }
+
