@@ -2,9 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-head {
-    background-image: url('/images/backphoto.jpg');
-}
 
 article {
     width: 700px;
@@ -20,6 +17,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     color: black;
+    background-image: url('/images/backphoto.jpg');
 }
 
 p {
