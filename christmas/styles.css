@@ -18,6 +18,7 @@ body {
     background-attachment: fixed;
     color: black;
     background-image: url('/christmas/images/backphoto.jpg');
+    min-height: 100%;
 }
 
 p {
