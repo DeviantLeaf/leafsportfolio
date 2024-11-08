@@ -11,7 +11,7 @@ article {
 
 body {
     background-color: rgb(53, 94, 51);
-    background-image: url('/christmas/images/backphoto.jpg');
+    background-image: url('images/backphoto.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
