@@ -41,7 +41,3 @@ h1 {
 a:visited {
     color: red;
 }
-
-a:unvisited {
-    color: rgba(197, 2, 2, 0.999)
-}
