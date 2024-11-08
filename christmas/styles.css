@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+head {
+    background-image: url('/christmas/images/backphoto.jpg');
+}
+
 article {
     width: 700px;
     margin: auto;
@@ -11,7 +15,6 @@ article {
 
 body {
     background-color: rgb(53, 94, 51);
-    background-image: url('/christmas/images/backphoto.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
