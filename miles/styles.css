@@ -12,6 +12,8 @@ article {
 body {
     background-color: rgb(134, 209, 221);
     color: black;
+    background-image: url('/images/backone.jpg');
+    font-family: "Montserrat"
 }
 
 p {
@@ -42,4 +44,8 @@ h1 {
     width: 100%;
     height: var(--hero);
     object-fit: cover;
+  }
+
+  nav {
+    padding: 0px;
   }
