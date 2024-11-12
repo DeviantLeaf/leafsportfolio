@@ -10,10 +10,12 @@ article {
     font-family: "Montserrat";
 }
 
+
 body {
     background-color: rgb(134, 209, 221);
     color: black;
     font-family: "Montserrat";
+    background-image: url('/images/backtwo.jpg');
 }
 
 p {
