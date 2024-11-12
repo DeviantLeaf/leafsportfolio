@@ -7,13 +7,16 @@ article {
     margin: auto;
     background-color: white;
     padding: 20px;
+    background-color: rgba(255, 255, 255, 0.75);
+
 }
 
 body {
     background-color: rgb(134, 209, 221);
     color: black;
     background-image: url('/images/backone.jpg');
-    font-family: "Montserrat"
+    font-family: "Montserrat";
+    background-color: rgba(255, 255, 255, 0.75);
 }
 
 p {
@@ -22,7 +25,7 @@ p {
 
 h1, h2 {
     text-align: center;
-    font-family: Arial;
+    font-family: "Montserrat";
     font-size: 2em;
     background-color: rgb(158, 192, 198);
     padding: 10px;
@@ -31,6 +34,9 @@ h1, h2 {
 h1 {
     text-align: center;
     font-family: cursive;
+    background: rgb(235,238,238);
+    background: rgb(70,124,124);
+    background: linear-gradient(153deg, rgba(70,124,124,1) 2%, rgba(158,192,198,1) 51%, rgba(134,209,221,1) 100%);
 }
 
 .center {
