@@ -2,41 +2,49 @@ html {
     scroll-behavior: smooth;
 }
 
+
 article {
-    width: 700px;
+    width: auto;
     margin: auto;
-    background-color: white;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.75);
+}
 
+main {
+    max-width: 760px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px 5px rgba(69,122,130,1);
 }
 
 body {
-    background-color: rgb(134, 209, 221);
     color: black;
-    background-image: url('/images/backone.jpg');
+    background-image: url('/images/backdark.jpg');
     font-family: "Montserrat";
+    font-weight: 300;
+    font-optical-sizing: auto;
     background-color: rgba(255, 255, 255, 0.75);
 }
 
-p {
-    line-height: 1.5em;
-}
-
-h1, h2 {
-    text-align: center;
-    font-family: "Montserrat";
-    font-size: 2em;
-    background-color: rgb(158, 192, 198);
-    padding: 10px;
-}
 
 h1 {
     text-align: center;
+    font-family: "Montserrat";
+    font-size: 2em;
+    padding: 10px;
+}
+
+p {
+    margin: 10px;
+    line-height: 1.5em;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+header {
+    text-align: center;
     font-family: cursive;
-    background: rgb(235,238,238);
-    background: rgb(70,124,124);
-    background: linear-gradient(153deg, rgba(70,124,124,1) 2%, rgba(158,192,198,1) 51%, rgba(134,209,221,1) 100%);
 }
 
 .center {
@@ -47,11 +55,15 @@ h1 {
   }
 
   img {
-    width: 100%;
     height: var(--hero);
-    object-fit: cover;
+    background-color: rgba(255, 255, 255, 0.75);
   }
 
   nav {
+    background-color: rgba(255, 255, 255, 0.75);
     padding: 0px;
+  }
+
+  ul, li, a {
+    background-color: rgba(255, 255, 255, 0.75);
   }
